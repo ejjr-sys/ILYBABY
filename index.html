@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brochure Style Page</title>
+  <!-- External CSS File -->
+<link rel="stylesheet" href="style.css">
+
+<style>
+  /* Inline fallback styles (can be moved to style.css) */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+    color: #333;
+  }
+
+  .brochure {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 10px;
+  }
+
+  .header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .header h1 {
+    font-size: 36px;
+    margin: 0;
+    color: #2a4d69;
+  }
+
+  .header p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #4f4f4f;
+  }
+
+  .section {
+    margin-bottom: 40px;
+  }
+
+  .section h2 {
+    font-size: 28px;
+    color: #2a4d69;
+    margin-bottom: 10px;
+  }
+
+  .section p {
+    line-height: 1.6;
+    font-size: 16px;
+  }
+
+  .three-cols {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+  }
+
+  .card {
+    background: #f0f8ff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+
+  .footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #666;
+  }
+</style>
+</head>
+<body>
+  <div class="brochure">
+    <div class="header">
+      <h1>Anniversary Date With My Baby!</h1>
+      <p>Beach date for our 2nd Anniversary.</p>
+    </div>
+
+    <div class="section">
+      <h2>Dayang Beach Resort</h2>
+      <p>Talicud island, Samal, Philippines</p>
+    </div>
+
+    <div class="section">
+      <h2>Highlights</h2>
+      <div class="three-cols">
+        <div class="card">
+          <h3>Feature One</h3>
+          <p>🌅 Crystal-Clear Waters</p>
+        </div>
+        <div class="card">
+          <h3>Feature Two</h3>
+          <p>🏖️ White Sand Shorelines</p>
+        </div>
+        <div class="card">
+          <h3>Feature Three</h3>
+          <p>🌴 Tropical Activities</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>About Us</h2>
+      <p>Dayang Beach Resort in Talicud Island, Davao is a peaceful tropical hideaway known for its clear waters, white sand, and relaxing atmosphere. It’s the perfect spot to unwind, enjoy the sunset, and experience the simple beauty of island life.</p>
+    </div>
+
+    <div class="footer">
+      © 2025 2nd Anniv — All Rights Reserved
+    </div>
+    <div class="section">
+      <h2>Our Photos Coming Soon!</h2>
+      <div class="three-cols">
+        <div class="card">
+          <img src="photo1.jpg" alt="Photo 1" style="width:100%; border-radius:10px;">
+          <p style="margin-top:10px;">Photo 1 description here</p>
+        </div>
+        <div class="card">
+          <img src="photo2.jpg" alt="Photo 2" style="width:100%; border-radius:10px;">
+          <p style="margin-top:10px;">Photo 2 description here</p>
+        </div>
+      </div>
+    </div>
+
+    </div>
+  <!-- External JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
